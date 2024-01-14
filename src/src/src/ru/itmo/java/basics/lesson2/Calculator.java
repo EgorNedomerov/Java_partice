@@ -76,12 +76,12 @@ public class Calculator {
     }
 
     public static void division(int num1, int num2) {
-        int result = num1 / num2;
+        int result = (num1 / num2)+ (num1%num2);
         System.out.println("result /: " + result);
     }
 
     public static void division(long num1, long num2) {
-        long result = num1 / num2;
+        long result = (num1 / num2)+ (num1%num2);
         System.out.println("result /: " + result);
     }
 
